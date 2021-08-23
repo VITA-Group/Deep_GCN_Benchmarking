@@ -1,0 +1,60 @@
+Cora:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.8
+  weight_decay: 0.005
+Citeseer:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.02
+Pubmed:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.8
+  weight_decay: 0.005
+ogbn-arxiv:
+  dim_hidden: 256
+  lr: 0.005
+  dropout: 0.2
+  weight_decay: 0.
+CoauthorPhysics:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.8
+  weight_decay: 0.
+CoauthorCS:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.8
+  weight_decay: 0.
+AmazonComputers:
+  dim_hidden: 64
+  lr: 0.5
+  dropout: 0.8
+  weight_decay: 0.0005
+AmazonPhoto:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.0005
+TEXAS:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.0001
+WISCONSIN:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.0005
+CORNELL:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.001
+ACTOR:
+  dim_hidden: 64
+  lr: 0.01
+  dropout: 0.5
+  weight_decay: 0.0005

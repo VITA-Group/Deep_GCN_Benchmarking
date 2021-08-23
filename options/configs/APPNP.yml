@@ -1,0 +1,96 @@
+Cora:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+Citeseer:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+Pubmed:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+ogbn-arxiv:
+  dim_hidden: 256
+  alpha: 0.5
+  lr: 0.001
+  dropout: 0.
+  weight_decay1: 0.
+  weight_decay2: 0.
+  embedding_dropout: 0.1
+CoauthorPhysics:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+CoauthorCS:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+AmazonComputers:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+AmazonPhoto:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+TEXAS:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+WISCONSIN:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+CORNELL:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
+ACTOR:
+  dim_hidden: 64
+  alpha: 0.1
+  lr: 0.01
+  dropout: 0.
+  weight_decay1: 0.005
+  weight_decay2: 0.
+  embedding_dropout: 0.5
