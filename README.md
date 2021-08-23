@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Codes for [Bag of Tricks for Training Deeper Graph Neural Networks: A Comprehensive Benchmark Study]()
+Codes for [Preprint] [Bag of Tricks for Training Deeper Graph Neural Networks: A Comprehensive Benchmark Study]()
 
 Tianlong Chen\*, Kaixiong Zhou\*, Keyu Duan, Wenqing Zheng, Peihao Wang, Xia Hu, Zhangyang Wang
 
