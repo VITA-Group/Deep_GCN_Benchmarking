@@ -187,13 +187,13 @@ As all implemented tricks are coupled in `tricks_comb.py` tightly, we do not rec
 
 | Models | Average Ranking on (CS, Physics, Computers, Photo, Texas, Wisconsin, Cornell, Actor) |
 | :----: | :----------------------------------------------------------: |
-|  Ours  |                            1.375                             |
-|  SGC   |                            6.125                             |
-| DAGNN  |                            5.125                             |
-| GCNII  |                            3.750                             |
-| JKNet  |                            4.750                             |
-| APPNP  |                            3.875                             |
-| GPRGNN |                            3.000                             |
+|  Ours  |                            1.500                             |
+|  SGC   |                            6.250                             |
+| DAGNN  |                            4.375                         |
+| GCNII  |                            3.875                           |
+| JKNet  |                            4.875                           |
+| APPNP  |                            4.000                         |
+| GPRGNN |                            3.125                           |
 
 - Takeaways of the best combo
 
