@@ -202,5 +202,12 @@ As all implemented tricks are coupled in `tricks_comb.py` tightly, we do not rec
 ## Citation
 if you find this repo is helpful, please cite
 ```
-TBD
+@misc{chen2021bag,
+      title={Bag of Tricks for Training Deeper Graph Neural Networks: A Comprehensive Benchmark Study}, 
+      author={Tianlong Chen and Kaixiong Zhou and Keyu Duan and Wenqing Zheng and Peihao Wang and Xia Hu and Zhangyang Wang},
+      year={2021},
+      eprint={2108.10521},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
