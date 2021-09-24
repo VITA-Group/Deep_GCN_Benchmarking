@@ -21,6 +21,7 @@ class BaseOptions():
         parser.add_argument("--cuda", type=bool, default=True, required=False,
                             help="run in cuda mode")
         parser.add_argument('--cuda_num', type=int, default=0, help="GPU number")
+        parser.add_argument('--log_file_name', type=str, default='time_and_memory.log')
 
         parser.add_argument('--compare_model', type=int, default=0,
                             help="0: test tricks, 1: test models")
