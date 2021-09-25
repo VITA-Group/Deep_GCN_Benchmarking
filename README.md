@@ -15,7 +15,7 @@ This is the first fair and reproducible benchmark dedicated to assessing the "tr
 ```bash
 conda create -n deep_gcn_benchmark
 conda activate deep_gcn_benchmark
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 #### Our Installation Notes for PyTorch Geometric.
