@@ -136,6 +136,7 @@ class DropoutTrick(nn.Module):
         elif AcontainsB(self.type_trick, ['FastGCN']):
             self.graph_dropout = FastGCN(args.graph_dropout)
         elif AcontainsB(self.type_trick, ['LADIES']):
+            self.layerwise_drop = True
             assert self.layerwise_drop, 'LADIES requires layer-wise dropout flag on'
             self.graph_dropout = LADIES(args.graph_dropout, args.num_layers)
         else:

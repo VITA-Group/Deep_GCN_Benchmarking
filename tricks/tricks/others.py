@@ -102,7 +102,7 @@ class GCNIdMapConv(MessagePassing):
 
         edge_index, norm = self.cached_result
 
-        support = self.propagate(edge_index, x=x, norm=norm)  # + x
+        support = self.propagate(edge_index, x=x, edge_weight=norm)  # + x
         if beta != 0.:
             out = torch.matmul(support, self.weight)
             if out.shape == support.shape:
@@ -111,8 +111,8 @@ class GCNIdMapConv(MessagePassing):
             out = support
         return out
 
-    def message(self, x_j, norm):
-        return norm.view(-1, 1) * x_j
+    def message(self, x_j: Tensor, edge_weight: Tensor) -> Tensor:
+        return edge_weight.view(-1, 1) * x_j
 
     def __repr__(self):
         return '{}({}, {})'.format(self.__class__.__name__, self.in_channels,
