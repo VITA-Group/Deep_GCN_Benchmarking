@@ -7,7 +7,7 @@ for dataset in ${datasets[@]}; do
     for num_layer in ${num_layers[@]}; do
         for backbone in ${backbones[@]}; do
             for type_trick in ${type_tricks[@]}; do
-                python time_and_memory.py --dataset=$dataset --type_trick=$type_trick --num_layers=$num_layer --type_model=$backbone
+                python time_and_memory.py --dataset=$dataset --type_trick=$type_trick --num_layers=$num_layer --type_model=$backbone --cuda_num=3
             done
         done
     done
