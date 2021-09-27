@@ -1,4 +1,4 @@
-datasets=(Cora Citeseer Pubmed)
+datasets=(ogbn-arxiv)
 num_layers=(2 4 8 16 32 64)
 backbones=(GCN SGC)
 type_tricks=(None, DropEdge, DropNode, FastGCN, LADIES, BatchNorm, PairNorm, NodeNorm, MeanNorm, GroupNorm, CombNorm, Residual, Initial, Jumping, Dense, IdentityMapping)
