@@ -7,7 +7,7 @@ Citeseer:
   dim_hidden: 64
   lr: 0.01
   dropout: 0.5
-  weight_decay: 0.02
+  weight_decay: 0.005
 Pubmed:
   dim_hidden: 64
   lr: 0.01

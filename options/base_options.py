@@ -111,8 +111,9 @@ class BaseOptions():
             args.num_feats = 3703
             args.num_classes = 6
 
-            args.dropout = 0.6
-            args.lr = 0.005
+            args.dropout = 0.7
+            args.lr = 0.01
+            args.lamda = 0.6
             args.weight_decay = 5e-4
             args.epochs = 1000
             args.patience = 100
