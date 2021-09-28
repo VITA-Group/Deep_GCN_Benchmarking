@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from ogb.nodeproppred import Evaluator
 
 from Dataloader import load_data, load_ogbn
-from tricks import TricksComb
+from tricks import TricksComb, TricksCombSGC
 from utils import AcontainsB
 
 
@@ -38,7 +38,10 @@ class trainer(object):
             Model = getattr(importlib.import_module("models"), self.type_model)
             self.model = Model(args)
         else:  # compare tricks combinations
-            self.model = TricksComb(args)
+            if args.type_model == 'GCN':
+                self.model = TricksComb(args)
+            if args.type_model == 'SGC':
+                self.model = TricksCombSGC(args)
 
         self.model.to(self.device)
         self.optimizer = self.model.optimizer
