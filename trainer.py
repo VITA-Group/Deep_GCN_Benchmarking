@@ -38,11 +38,7 @@ class trainer(object):
             Model = getattr(importlib.import_module("models"), self.type_model)
             self.model = Model(args)
         else:  # compare tricks combinations
-            if args.type_model == 'GCN':
-                self.model = TricksComb(args)
-            if args.type_model == 'SGC':
-                self.model = TricksCombSGC(args)
-
+            self.model = TricksComb(args)
         self.model.to(self.device)
         self.optimizer = self.model.optimizer
 
