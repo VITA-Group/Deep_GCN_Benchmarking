@@ -1,0 +1,516 @@
+---> ogbn-arxiv | 2-GCN | None,
+133.14ms/5856.61MB
+
+---> ogbn-arxiv | 2-GCN | DropEdge,
+111.98ms/4963.70MB
+
+---> ogbn-arxiv | 2-GCN | DropNode,
+102.11ms/4267.52MB
+
+---> ogbn-arxiv | 2-GCN | FastGCN,
+136.80ms/5590.19MB
+
+---> ogbn-arxiv | 2-GCN | LADIES,
+158.54ms/5591.76MB
+
+---> ogbn-arxiv | 2-GCN | BatchNorm,
+135.88ms/6022.00MB
+
+---> ogbn-arxiv | 2-GCN | PairNorm,
+146.77ms/6021.99MB
+
+---> ogbn-arxiv | 2-GCN | NodeNorm,
+146.87ms/6188.01MB
+
+---> ogbn-arxiv | 2-GCN | MeanNorm,
+137.85ms/5856.61MB
+
+---> ogbn-arxiv | 2-GCN | GroupNorm,
+231.48ms/7689.02MB
+
+---> ogbn-arxiv | 2-GCN | CombNorm,
+245.18ms/8020.42MB
+
+---> ogbn-arxiv | 2-GCN | Residual,
+162.19ms/6399.08MB
+
+---> ogbn-arxiv | 2-GCN | Initial,
+162.42ms/6399.08MB
+
+---> ogbn-arxiv | 2-GCN | Jumping,
+160.46ms/6399.15MB
+
+---> ogbn-arxiv | 2-GCN | Dense,
+186.89ms/6732.33MB
+
+---> ogbn-arxiv | 2-GCN | IdentityMapping
+133.33ms/5856.61MB
+
+---> ogbn-arxiv | 2-SGC | None,
+135.20ms/6232.20MB
+
+---> ogbn-arxiv | 2-SGC | DropEdge,
+116.09ms/5340.74MB
+
+---> ogbn-arxiv | 2-SGC | DropNode,
+106.58ms/4672.89MB
+
+---> ogbn-arxiv | 2-SGC | FastGCN,
+142.55ms/5966.34MB
+
+---> ogbn-arxiv | 2-SGC | LADIES,
+157.47ms/5966.72MB
+
+---> ogbn-arxiv | 2-SGC | BatchNorm,
+140.39ms/6397.60MB
+
+---> ogbn-arxiv | 2-SGC | PairNorm,
+158.84ms/6397.58MB
+
+---> ogbn-arxiv | 2-SGC | NodeNorm,
+157.50ms/6563.60MB
+
+---> ogbn-arxiv | 2-SGC | MeanNorm,
+142.81ms/6232.20MB
+
+---> ogbn-arxiv | 2-SGC | GroupNorm,
+299.06ms/8064.47MB
+
+---> ogbn-arxiv | 2-SGC | CombNorm,
+321.34ms/8395.86MB
+
+---> ogbn-arxiv | 2-SGC | Residual,
+144.02ms/6232.20MB
+
+---> ogbn-arxiv | 2-SGC | Initial,
+143.88ms/6232.20MB
+
+---> ogbn-arxiv | 2-SGC | Jumping,
+142.14ms/6232.28MB
+
+---> ogbn-arxiv | 2-SGC | Dense,
+168.23ms/6565.46MB
+
+---> ogbn-arxiv | 2-SGC | IdentityMapping
+154.04ms/6399.08MB
+
+---> ogbn-arxiv | 4-GCN | None,
+275.71ms/7028.34MB
+
+---> ogbn-arxiv | 4-GCN | DropEdge,
+235.66ms/6119.90MB
+
+---> ogbn-arxiv | 4-GCN | DropNode,
+208.79ms/5410.63MB
+
+---> ogbn-arxiv | 4-GCN | FastGCN,
+275.92ms/6757.73MB
+
+---> ogbn-arxiv | 4-GCN | LADIES,
+318.34ms/6757.76MB
+
+---> ogbn-arxiv | 4-GCN | BatchNorm,
+284.71ms/7524.49MB
+
+---> ogbn-arxiv | 4-GCN | PairNorm,
+313.81ms/7524.46MB
+
+---> ogbn-arxiv | 4-GCN | NodeNorm,
+311.88ms/8022.52MB
+
+---> ogbn-arxiv | 4-GCN | MeanNorm,
+288.52ms/7028.34MB
+
+---> ogbn-arxiv | 4-GCN | GroupNorm,
+533.72ms/12525.01MB
+
+---> ogbn-arxiv | 4-GCN | CombNorm,
+574.31ms/13519.63MB
+
+---> ogbn-arxiv | 4-GCN | Residual,
+314.49ms/7570.80MB
+
+---> ogbn-arxiv | 4-GCN | Initial,
+314.47ms/7570.80MB
+
+---> ogbn-arxiv | 4-GCN | Jumping,
+310.33ms/7571.04MB
+
+---> ogbn-arxiv | 4-GCN | Dense,
+389.01ms/9066.24MB
+
+---> ogbn-arxiv | 4-GCN | IdentityMapping
+276.11ms/7028.34MB
+
+---> ogbn-arxiv | 4-SGC | None,
+259.67ms/7071.68MB
+
+---> ogbn-arxiv | 4-SGC | DropEdge,
+220.72ms/6163.14MB
+
+---> ogbn-arxiv | 4-SGC | DropNode,
+193.67ms/5460.47MB
+
+---> ogbn-arxiv | 4-SGC | FastGCN,
+259.73ms/6800.44MB
+
+---> ogbn-arxiv | 4-SGC | LADIES,
+304.52ms/6800.68MB
+
+---> ogbn-arxiv | 4-SGC | BatchNorm,
+269.60ms/7567.84MB
+
+---> ogbn-arxiv | 4-SGC | PairNorm,
+306.16ms/7567.80MB
+
+---> ogbn-arxiv | 4-SGC | NodeNorm,
+303.82ms/8065.86MB
+
+---> ogbn-arxiv | 4-SGC | MeanNorm,
+274.08ms/7071.68MB
+
+---> ogbn-arxiv | 4-SGC | GroupNorm,
+587.32ms/12568.21MB
+
+---> ogbn-arxiv | 4-SGC | CombNorm,
+631.85ms/13562.39MB
+
+---> ogbn-arxiv | 4-SGC | Residual,
+277.04ms/7071.68MB
+
+---> ogbn-arxiv | 4-SGC | Initial,
+276.94ms/7071.68MB
+
+---> ogbn-arxiv | 4-SGC | Jumping,
+273.41ms/7071.91MB
+
+---> ogbn-arxiv | 4-SGC | Dense,
+350.58ms/8567.12MB
+
+---> ogbn-arxiv | 4-SGC | IdentityMapping
+297.31ms/7570.80MB
+
+---> ogbn-arxiv | 8-GCN | None,
+560.86ms/9371.79MB
+
+---> ogbn-arxiv | 8-GCN | DropEdge,
+482.16ms/8428.14MB
+
+---> ogbn-arxiv | 8-GCN | DropNode,
+420.07ms/7716.82MB
+
+---> ogbn-arxiv | 8-GCN | FastGCN,
+553.42ms/9090.58MB
+
+---> ogbn-arxiv | 8-GCN | LADIES,
+649.97ms/9089.65MB
+
+---> ogbn-arxiv | 8-GCN | BatchNorm,
+582.16ms/10529.47MB
+
+---> ogbn-arxiv | 8-GCN | PairNorm,
+647.89ms/10529.41MB
+
+---> ogbn-arxiv | 8-GCN | NodeNorm,
+640.11ms/11691.55MB
+
+---> ogbn-arxiv | 8-GCN | MeanNorm,
+588.17ms/9372.41MB
+
+---> ogbn-arxiv | 8-GCN | GroupNorm,
+1152.89ms/22197.00MB
+
+---> ogbn-arxiv | 8-GCN | CombNorm,
+1232.72ms/24517.45MB
+
+---> ogbn-arxiv | 8-GCN | Residual,
+617.75ms/9914.25MB
+
+---> ogbn-arxiv | 8-GCN | Initial,
+616.99ms/9914.25MB
+
+---> ogbn-arxiv | 8-GCN | Jumping,
+610.66ms/9914.80MB
+
+---> ogbn-arxiv | 8-GCN | Dense,
+880.42ms/15725.35MB
+
+---> ogbn-arxiv | 8-GCN | IdentityMapping
+562.62ms/9371.79MB
+
+---> ogbn-arxiv | 8-SGC | None,
+509.04ms/8751.26MB
+
+---> ogbn-arxiv | 8-SGC | DropEdge,
+430.00ms/7806.95MB
+
+---> ogbn-arxiv | 8-SGC | DropNode,
+369.10ms/7064.62MB
+
+---> ogbn-arxiv | 8-SGC | FastGCN,
+499.89ms/8465.82MB
+
+---> ogbn-arxiv | 8-SGC | LADIES,
+593.68ms/8467.24MB
+
+---> ogbn-arxiv | 8-SGC | BatchNorm,
+526.35ms/9908.32MB
+
+---> ogbn-arxiv | 8-SGC | PairNorm,
+601.26ms/9908.26MB
+
+---> ogbn-arxiv | 8-SGC | NodeNorm,
+594.93ms/11070.39MB
+
+---> ogbn-arxiv | 8-SGC | MeanNorm,
+537.24ms/8751.26MB
+
+---> ogbn-arxiv | 8-SGC | GroupNorm,
+1165.06ms/21576.13MB
+
+---> ogbn-arxiv | 8-SGC | CombNorm,
+1252.81ms/23896.15MB
+
+---> ogbn-arxiv | 8-SGC | Residual,
+543.08ms/8750.64MB
+
+---> ogbn-arxiv | 8-SGC | Initial,
+542.67ms/8750.64MB
+
+---> ogbn-arxiv | 8-SGC | Jumping,
+535.85ms/8751.81MB
+
+---> ogbn-arxiv | 8-SGC | Dense,
+800.59ms/14561.73MB
+
+---> ogbn-arxiv | 8-SGC | IdentityMapping
+584.91ms/9914.25MB
+
+---> ogbn-arxiv | 16-GCN | None,
+1136.12ms/14058.69MB
+
+---> ogbn-arxiv | 16-GCN | DropEdge,
+977.04ms/13044.54MB
+
+---> ogbn-arxiv | 16-GCN | DropNode,
+842.81ms/12272.71MB
+
+---> ogbn-arxiv | 16-GCN | FastGCN,
+1108.86ms/13754.13MB
+
+---> ogbn-arxiv | 16-GCN | LADIES,
+1310.97ms/13753.46MB
+
+---> ogbn-arxiv | 16-GCN | BatchNorm,
+1178.30ms/16539.43MB
+
+---> ogbn-arxiv | 16-GCN | PairNorm,
+1317.47ms/16539.93MB
+
+---> ogbn-arxiv | 16-GCN | NodeNorm,
+1303.23ms/19029.60MB
+
+---> ogbn-arxiv | 16-GCN | MeanNorm,
+1191.41ms/14059.32MB
+
+---> ogbn-arxiv | 16-GCN | GroupNorm,
+2388.49ms/41540.97MB
+
+---> ogbn-arxiv | 16-GCN | Residual,
+1226.54ms/14601.16MB
+
+---> ogbn-arxiv | 16-GCN | Initial,
+1227.36ms/14601.16MB
+
+---> ogbn-arxiv | 16-GCN | Jumping,
+1209.07ms/14602.33MB
+
+---> ogbn-arxiv | 16-GCN | Dense,
+2202.83ms/37004.45MB
+
+---> ogbn-arxiv | 16-GCN | IdentityMapping
+1141.15ms/14058.69MB
+
+---> ogbn-arxiv | 16-SGC | None,
+1004.12ms/12109.80MB
+
+---> ogbn-arxiv | 16-SGC | DropEdge,
+850.09ms/11095.42MB
+
+---> ogbn-arxiv | 16-SGC | DropNode,
+713.64ms/10275.51MB
+
+---> ogbn-arxiv | 16-SGC | FastGCN,
+976.45ms/11803.59MB
+
+---> ogbn-arxiv | 16-SGC | LADIES,
+1176.25ms/11800.70MB
+
+---> ogbn-arxiv | 16-SGC | BatchNorm,
+1045.01ms/14589.29MB
+
+---> ogbn-arxiv | 16-SGC | PairNorm,
+1188.22ms/14589.16MB
+
+---> ogbn-arxiv | 16-SGC | NodeNorm,
+1181.12ms/17080.08MB
+
+---> ogbn-arxiv | 16-SGC | MeanNorm,
+1061.17ms/12109.80MB
+
+---> ogbn-arxiv | 16-SGC | GroupNorm,
+2321.44ms/39592.63MB
+
+---> ogbn-arxiv | 16-SGC | Residual,
+1073.04ms/12108.55MB
+
+---> ogbn-arxiv | 16-SGC | Initial,
+1074.09ms/12108.55MB
+
+---> ogbn-arxiv | 16-SGC | Jumping,
+1058.32ms/12110.97MB
+
+---> ogbn-arxiv | 16-SGC | Dense,
+2037.07ms/34512.94MB
+
+---> ogbn-arxiv | 16-SGC | IdentityMapping
+1158.61ms/14601.16MB
+
+---> ogbn-arxiv | 32-GCN | None,
+2295.50ms/23432.50MB
+
+---> ogbn-arxiv | 32-GCN | DropEdge,
+1977.29ms/22277.59MB
+
+---> ogbn-arxiv | 32-GCN | DropNode,
+1695.38ms/21375.29MB
+
+---> ogbn-arxiv | 32-GCN | FastGCN,
+2223.08ms/23082.86MB
+
+---> ogbn-arxiv | 32-GCN | LADIES,
+2622.87ms/23083.57MB
+
+---> ogbn-arxiv | 32-GCN | BatchNorm,
+2378.49ms/28559.35MB
+
+---> ogbn-arxiv | 32-GCN | PairNorm,
+2657.19ms/28560.36MB
+
+---> ogbn-arxiv | 32-GCN | NodeNorm,
+2631.94ms/33706.34MB
+
+---> ogbn-arxiv | 32-GCN | MeanNorm,
+2407.81ms/23433.75MB
+
+---> ogbn-arxiv | 32-GCN | Residual,
+2447.16ms/23974.96MB
+
+---> ogbn-arxiv | 32-GCN | Initial,
+2459.27ms/23974.96MB
+
+---> ogbn-arxiv | 32-GCN | Jumping,
+2433.02ms/24979.94MB
+
+---> ogbn-arxiv | 32-GCN | IdentityMapping
+2292.17ms/23432.50MB
+
+---> ogbn-arxiv | 32-SGC | None,
+2014.96ms/18826.87MB
+
+---> ogbn-arxiv | 32-SGC | DropEdge,
+1693.23ms/17672.46MB
+
+---> ogbn-arxiv | 32-SGC | DropNode,
+1416.19ms/16794.15MB
+
+---> ogbn-arxiv | 32-SGC | FastGCN,
+1940.84ms/18477.01MB
+
+---> ogbn-arxiv | 32-SGC | LADIES,
+2345.02ms/18474.28MB
+
+---> ogbn-arxiv | 32-SGC | BatchNorm,
+2085.69ms/23951.86MB
+
+---> ogbn-arxiv | 32-SGC | PairNorm,
+2377.52ms/23951.60MB
+
+---> ogbn-arxiv | 32-SGC | NodeNorm,
+2354.95ms/29098.83MB
+
+---> ogbn-arxiv | 32-SGC | MeanNorm,
+2127.01ms/18826.87MB
+
+---> ogbn-arxiv | 32-SGC | Residual,
+2137.83ms/18824.99MB
+
+---> ogbn-arxiv | 32-SGC | Initial,
+2149.85ms/18824.99MB
+
+---> ogbn-arxiv | 32-SGC | Jumping,
+2125.41ms/19666.49MB
+
+---> ogbn-arxiv | 32-SGC | IdentityMapping
+2313.24ms/23974.96MB
+
+---> ogbn-arxiv | 64-GCN | None,
+4596.63ms/42180.10MB
+
+---> ogbn-arxiv | 64-GCN | DropEdge,
+3964.61ms/40744.30MB
+
+---> ogbn-arxiv | 64-GCN | DropNode,
+3403.04ms/39658.64MB
+
+---> ogbn-arxiv | 64-GCN | FastGCN,
+4435.08ms/41739.89MB
+
+---> ogbn-arxiv | 64-GCN | LADIES,
+5237.33ms/41738.92MB
+
+---> ogbn-arxiv | 64-GCN | MeanNorm,
+4810.50ms/42181.98MB
+
+---> ogbn-arxiv | 64-GCN | Residual,
+4882.57ms/42722.57MB
+
+---> ogbn-arxiv | 64-GCN | Initial,
+4901.58ms/42722.57MB
+
+---> ogbn-arxiv | 64-GCN | IdentityMapping
+4623.47ms/42180.10MB
+
+---> ogbn-arxiv | 64-SGC | None,
+4016.94ms/32260.39MB
+
+---> ogbn-arxiv | 64-SGC | DropEdge,
+3396.19ms/30823.08MB
+
+---> ogbn-arxiv | 64-SGC | DropNode,
+2807.25ms/29724.30MB
+
+---> ogbn-arxiv | 64-SGC | FastGCN,
+3864.28ms/31818.89MB
+
+---> ogbn-arxiv | 64-SGC | LADIES,
+4670.33ms/31813.42MB
+
+---> ogbn-arxiv | 64-SGC | BatchNorm,
+4175.24ms/42676.36MB
+
+---> ogbn-arxiv | 64-SGC | PairNorm,
+4740.95ms/42675.85MB
+
+---> ogbn-arxiv | 64-SGC | MeanNorm,
+4234.57ms/32260.39MB
+
+---> ogbn-arxiv | 64-SGC | Residual,
+4284.12ms/32259.14MB
+
+---> ogbn-arxiv | 64-SGC | Initial,
+4298.38ms/32259.14MB
+
+---> ogbn-arxiv | 64-SGC | IdentityMapping
+4640.77ms/42722.57MB
+
