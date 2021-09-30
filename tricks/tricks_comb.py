@@ -26,6 +26,8 @@ class TricksComb(nn.Module):
         self.has_residual_MLP = False
         if AcontainsB(self.type_trick, ['Jumping', 'Initial', 'Residual', 'Dense']):
             self.has_residual_MLP = True
+        elif self.type_model=='SGC':
+            self.has_residual_MLP = True
         # graph network initialize
         self.layers_GCN = nn.ModuleList([])
         self.layers_res = nn.ModuleList([])
@@ -35,15 +37,16 @@ class TricksComb(nn.Module):
         self.layers_MLP.append(nn.Linear(self.num_feats, self.dim_hidden))
         if not self.has_residual_MLP:
             self.layers_GCN.append(GCNConv(self.num_feats, self.dim_hidden, cached=self.cached))
+        appendNormLayer(self, args, self.dim_hidden)
 
         for i in range(self.num_layers):
             if (not self.has_residual_MLP) and (
                     0 < i < self.num_layers - 1):  # if don't want 0_th MLP, then 0-th layer is assigned outside the for loop
                 self.layers_GCN.append(GCNConv(self.dim_hidden, self.dim_hidden, cached=self.cached))
+                appendNormLayer(self, args, self.dim_hidden)
             elif self.has_residual_MLP:
                 self.layers_GCN.append(GCNConv(self.dim_hidden, self.dim_hidden, cached=self.cached))
-
-            appendNormLayer(self, args, self.dim_hidden if i < self.num_layers - 1 else self.num_classes)
+                appendNormLayer(self, args, self.dim_hidden)
 
             # set residual connection type
             if AcontainsB(self.type_trick, ['Residual']):
@@ -60,6 +63,7 @@ class TricksComb(nn.Module):
 
         if not self.has_residual_MLP:
             self.layers_GCN.append(GCNConv(self.dim_hidden, self.num_classes, cached=self.cached))
+            appendNormLayer(self, args, self.num_classes)
 
         self.graph_dropout = DropoutTrick(args)
         if AcontainsB(self.type_trick, ['NoDropout']):

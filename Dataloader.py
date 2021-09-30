@@ -56,7 +56,6 @@ def random_coauthor_amazon_splits(data):
 
     rest_index = torch.cat([i[50:] for i in indices], dim=0)
     rest_index = rest_index[torch.randperm(rest_index.size(0))]
-
     data.train_mask = index_to_mask(train_index, size=data.num_nodes)
     data.val_mask = index_to_mask(val_index, size=data.num_nodes)
     data.test_mask = index_to_mask(rest_index, size=data.num_nodes)
