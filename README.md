@@ -191,5 +191,4 @@ As all implemented tricks are coupled in `tricks_comb.py` tightly, we do not rec
 
 - Takeaways of the best combo
 
-![](figs/combo.png)
-```
+![combo](figs/combo.png)
