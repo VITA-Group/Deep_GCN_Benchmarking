@@ -1,11 +1,5 @@
 # Bag of Tricks for Training Deeper Graph Neural Networks: A Comprehensive Benchmark Study
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-Codes for [Preprint] [Bag of Tricks for Training Deeper Graph Neural Networks: A Comprehensive Benchmark Study](https://arxiv.org/pdf/2108.10521.pdf)
-
-Tianlong Chen\*, Kaixiong Zhou\*, Keyu Duan, Wenqing Zheng, Peihao Wang, Xia Hu, Zhangyang Wang
-
 ## Introduction
 
 This is the first fair and reproducible benchmark dedicated to assessing the "tricks" of training deep GNNs. We categorize existing approaches, investigate their hyperparameter sensitivity, and unify the basic configuration. Comprehensive evaluations are then conducted on tens of representative graph datasets including the recent large-scale Open Graph Benchmark (OGB), with diverse deep GNN backbones. Based on synergistic studies, we discover the transferable combo of superior training tricks, that lead us to attain the new state-of-the-art results for deep GCNs, across multiple representative graph datasets.
@@ -186,28 +180,16 @@ As all implemented tricks are coupled in `tricks_comb.py` tightly, we do not rec
 - Transferability of our best combo with 32 layers deep GCNs
 
 | Models | Average Ranking on (CS, Physics, Computers, Photo, Texas, Wisconsin, Cornell, Actor) |
-| :----: | :----------------------------------------------------------: |
-|  Ours  |                            1.500                             |
-|  SGC   |                            6.250                             |
-| DAGNN  |                            4.375                         |
-| GCNII  |                            3.875                           |
-| JKNet  |                            4.875                           |
-| APPNP  |                            4.000                         |
-| GPRGNN |                            3.125                           |
+| :----: | :----------------------------------------------------------------------------------: |
+|  Ours  |                                        1.500                                         |
+|  SGC   |                                        6.250                                         |
+| DAGNN  |                                        4.375                                         |
+| GCNII  |                                        3.875                                         |
+| JKNet  |                                        4.875                                         |
+| APPNP  |                                        4.000                                         |
+| GPRGNN |                                        3.125                                         |
 
 - Takeaways of the best combo
 
 ![](figs/combo.png)
-
-## Citation
-if you find this repo is helpful, please cite
-```
-@misc{chen2021bag,
-      title={Bag of Tricks for Training Deeper Graph Neural Networks: A Comprehensive Benchmark Study}, 
-      author={Tianlong Chen and Kaixiong Zhou and Keyu Duan and Wenqing Zheng and Peihao Wang and Xia Hu and Zhangyang Wang},
-      year={2021},
-      eprint={2108.10521},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
 ```
